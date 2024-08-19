@@ -1,4 +1,4 @@
-html, body {
+body {
   margin: 0;
   padding: 0;
 }
@@ -7,6 +7,7 @@ html, body {
 nav {
   display: flex;
   margin: 0px;
+  margin-bottom: 50px;
   padding: 0px;
   background-color: #F55A5A;
   height: 5rem;
@@ -21,4 +22,57 @@ nav {
   margin-right: 5px;
   margin-top: 10px;
   color: white;
+}
+
+.card-container {
+  display: flex;
+  margin: 30px;
+}
+
+.card-img {
+  width: 125px;
+  height: 168px;
+  border-radius: 10px;
+  margin-right: 19px;
+}
+.card-pin {
+  width: 10px;
+  height: 15px;
+  padding-right: 5px;
+}
+
+.card-stats {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.card-stats a {
+  color: gray;
+}
+
+.card-location {
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  padding-right: 12px;
+}
+
+.card-title {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 17px;
+  font-size: 25px;
+}
+
+.card-dates {
+  margin: 0px;
+}
+
+.card-description {
+  width: auto;
+  height: auto;
+  margin: 0px;
 }
