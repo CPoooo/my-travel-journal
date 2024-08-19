@@ -1,7 +1,24 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
+
+nav {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  background-color: #F55A5A;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.navImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-top: 10px;
+  color: white;
+}
