@@ -21,7 +21,7 @@ The main goal of this project was to practice and reinforce the ability to creat
 
 1. **Clone the Repository**:
    ```bash
-   git clone NEED LINK HERE
+   git clone https://github.com/CPoooo/my-travel-journal.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
